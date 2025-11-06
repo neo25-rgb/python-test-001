@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-**Estimated Time:** 2.5 hours
+**Estimated Time:** 2 hours
 
 ---
 
@@ -66,28 +66,9 @@ print(draw_square(4, filled=False))
 
 ---
 
-### 2. `draw_triangle(size, filled=False, char="*")`
 
 
-Draw a triangle of the given height.
-
-**Parameters:**
-- `size` (int): Height of the triangle
-- `filled` (bool): If True, fill the triangle; if False, make it hollow
-- `char` (str): Character to use for drawing
-
-**Example:**
-```python
-print(draw_triangle(4, filled=True))
-# Output:
-#    *
-#   ***
-#  *****
-# *******
-```
----
-
-### 3. `draw_number_triangle(height)`
+### 2. `draw_number_triangle(height)`
 
 Draw a triangle of sequential numbers.
 
@@ -105,8 +86,7 @@ print(draw_number_triangle(4))
 ```
 ---
 
-### 4. `factorial(n)`
-**Difficulty:** ⭐ Easy
+### 3. `factorial(n)`
 
 Calculate the factorial of n (n!).
 
@@ -118,8 +98,7 @@ Calculate the factorial of n (n!).
 
 ---
 
-### 5. `bar_graph()`
-**Difficulty:** ⭐⭐⭐ Hard
+### 4. `bar_graph()`
 
 Read student grades from `grades.txt` and display a bar graph of class averages.
 
@@ -141,9 +120,7 @@ Class averages:
 3: ******
 4: ***
 5: ********
-6: *****
-7: *****
-8: **
+... etc.
 ```
 
 ---
@@ -187,5 +164,3 @@ Row 5:    1  5  10  10   5   1
 
 ---
 
-*Last updated: November 2025*  
-*Created by: Tech Mentor Team*
