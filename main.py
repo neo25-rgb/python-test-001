@@ -1,3 +1,4 @@
+import csv
 def draw_square(size:int, filled=False, char="*")-> str:
     """
     This function draws a square of given size.
@@ -10,7 +11,18 @@ def draw_square(size:int, filled=False, char="*")-> str:
     Returns:
         str: A string representation of the square.
     """
-    pass
+    if size <= 0:
+        return ""
+    
+    result = []
+    for x in range(size):
+        if filled or size == 1 or size == 2:
+            row = char * size
+        else:
+            if x == 0 or x == size - 1:
+                row = char * size
+        result.append(row)
+
 
     
 def draw_number_triangle(height:int)->str:
@@ -40,7 +52,13 @@ def factorial(n:int):
     n: non-negative integer
     return: n!
     """
-    pass
+    if n == 0 or n == 1:
+        return 1
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
     
 def bar_graph()->str:
     """
